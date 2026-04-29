@@ -1,5 +1,5 @@
 {% set name = "openinference-instrumentation-openai-agents" %}
-{% set version = "1.4.0" %}
+{% set version = "1.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/openinference_instrumentation_openai_agents-{{ version }}.tar.gz
-  sha256: 2fd50d03f6d999b9793566a1f2787bf9e2cd3774fa8bf32542250dfc61e32d62
+  sha256: 1ecb704ae42f7630f5fd07a2fdfb7141b3abb3200c00664bddca24bec095539f
 
 build:
   noarch: python
